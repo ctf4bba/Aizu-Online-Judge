@@ -1,9 +1,9 @@
 s = input()
 ans = ''
 
-for i in range(len(s)):
-    if(s[i].islower()):
-        ans += s[i].upper()
+for c in s:
+    if(c.islower()):
+        ans += c.upper()
     else:
-        ans += s[i].lower()
+        ans += c.lower()
 print(ans)
